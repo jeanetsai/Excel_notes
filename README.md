@@ -21,4 +21,4 @@ COUNTIFS
 SUMIFS
 =SUMIFS(加總範圍,資料範圍1, 條件或關鍵字欄位1,資料範圍2, 條件或關鍵字欄位2)
 
-參考資料: https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw papaya電腦教室
+參考資料: https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw
