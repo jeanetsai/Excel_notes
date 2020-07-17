@@ -1,4 +1,4 @@
-# Excel_notes
+# Excel_notes 教學檔案
 IF, COUNTIF, VLOOKUP and other functions
 
 字串記得加雙引號，絕對參照可使用F4作為快捷鍵
@@ -20,5 +20,11 @@ COUNTIFS
 
 SUMIFS
 =SUMIFS(加總範圍,資料範圍1, 條件或關鍵字欄位1,資料範圍2, 條件或關鍵字欄位2)
+
+PIVOTS
+插入樞紐分析表，將要看的列和欄打勾或拖曳到列和欄。
+如需查看某一業務員業績，則將業務員拖曳至左上報表篩選 (fliters)。
+日期1月 2月 3月 ... 等資訊，可以選某一頁右鍵=>群組=>group by 季，則能變成第一季，第二季等
+
 
 參考資料: https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw
