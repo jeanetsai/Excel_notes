@@ -1,5 +1,5 @@
 # Excel_notes 教學檔案
-IF, COUNTIF, VLOOKUP and other functions
+IF, COUNTIF, VLOOKUP and other functions, pivot tables
 
 字串記得加雙引號，絕對參照可使用F4作為快捷鍵
 
