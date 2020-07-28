@@ -31,5 +31,5 @@ PIVOTS
 
 GOAL SEEK
 資料=>假設狀況分析(What if analysis)
->>目標搜尋 GoalSeek
+=>目標搜尋 GoalSeek
 
