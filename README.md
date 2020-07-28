@@ -27,5 +27,9 @@ PIVOTS
 日期1月 2月 3月 ... 等資訊，可以選某一頁右鍵=>群組=>group by 季，則能變成第一季，第二季等
 #若原始資料更動，要記得手動重新整理 (或 alt+F5)。
 匯入Power BI 前如果不是表格，記得要圈選並"格式化為表格"。
-
 參考資料: https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw
+
+GOAL SEEK
+資料=>假設狀況分析(What if analysis)
+>>目標搜尋 GoalSeek
+
