@@ -28,6 +28,8 @@ PIVOTS
 #若原始資料更動，要記得手動重新整理 (或 alt+F5)。
 匯入Power BI 前如果不是表格，記得要圈選並"格式化為表格"。
 參考資料: https://www.youtube.com/channel/UCdEpz2A4DzV__4C1x2quKLw
+針對連續的日期變數，可以按其中一格右鍵=>group群組=>同時選年+季+月=>就會自動分類成年/季/月
+=>也可以按天數分，群組=>選擇日=>鍵入天數=14天
 
 GOAL SEEK
 資料=>假設狀況分析(What if analysis)
