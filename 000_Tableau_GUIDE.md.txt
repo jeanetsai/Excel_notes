@@ -1,0 +1,1378 @@
+連接excel => 拖曳 excel sheet 至中央
+=>下方點選工作表 => 即可進入 tableau 編輯圖表
+
+最常用的data:ex02 Red30TechData.xlsx 幾乎全部範例都用這個檔案
+
+練習資料表關聯:differentnames.xlsx
+
+01 01 download Tableau
+Support link => download Tableau
+
+Public tableau => Free, not for business
+
+01 02 Install drivers
+
+tableau.com/support/drivers
+
+01 03 Tableau file types
+
+Tableau workbook (.twb)
+Tableau data source (.tds)
+- stores the server address, password, and 
+other info required to access a data source
+Tableau bookmark (.tbm)
+- stores a connection to a worksheet in another Tableau workbook
+Tableau extrace (.tde)
+- stores tableau data as a filtered and aggregated extract
+Tableau packaged workbook (.twbx)
+- stored extracted data and visualizations for viewing in Tableau or Tableau reader
+
+01 04 Get help in tableau
+
+最上方 help => open help
+
+01 05 new features
+
+ch2 managing data sources and visualizations
+
+02 01 connect to a data source
+連接excel檔案
+
+左方connect面板=>to a file=>Microsoft excel
+打開 ex02 Red30TechData
+可以發現我們的excel在左方只有一個sheet 
+
+按下方 sheet1
+將左方的Dimensions的Prod category拖到rows
+Measures 的Order total拖到columns
+
+02 02 Joining related data sources
+JOIN兩個有相同欄位的excel
+
+左方connect面板=>to a file=>Microsoft excel
+打開 ex02 orders
+
+左方connections白面板=>ADD
+=>出現add a connection
+再按一次microsoft excel
+打開ex02 products
+
+出現shee1 -OO- sheet1
+點擊join發現 兩邊都有 product ID這一欄 所以可以join
+
+按下方 sheet1
+把上方product category 拖到 rows
+把下方quantity 拖到中間的data area (abc abc)
+
+可發現我們完成了一個表格
+
+02 03 
+Join data sources with inconsistent field names
+JOIN兩個有不同欄位的excel 資料表關聯
+
+左方connect面板=>to a file=>Microsoft excel
+打開 ex02 differentnames.xlsx
+
+左方發現兩個sheet customers和orders
+把orders拖曳到中間 Drag sheets here
+把customers也拖曳到中間 Drag sheets here
+
+發現 -oo- 出現幾個選項
+inner | left | right | full outer
+
+我們要join "order ID"和 "cust ID"
+
+一邊選取 "cust ID" 一邊選取 "order ID"
+
+按下方 sheet1
+把上方 customer state 拖到rows
+把下方 rumber of records 拖到 abc abc
+可發現我們完成了一個表格
+
+02 04 clean up source data
+處理有問題的excel來源檔案:例如處理大標題
+
+連接cleandata.xlsx
+發現有點問題
+打開excel發現因為有一個大標題
+
+你可以自己刪掉大標題或載入後
+左方sheet白面板
+use data intepreter打勾
+他會自動調整 刪掉大標題
+
+Tableau prep也可以清理data
+
+02 05 reorder fields in a visualization
+
+打開0205資料夾之範例
+將左上方的prod category拖到rows
+將左下方的order total拖到abc abc
+
+將左上方的prod name也拖到rows
+(類似pivot table)
+把prod category拖到columns
+
+02 06 change the summary operation
+
+打開02_06 summary
+rows只有一列prod category
+
+左方marks標記面板 detail
+有 Sum(order...)
+按下倒三角形
+選單measure度量 =>sum 總和
+若改成average 則數字會改變成average
+
+
+02 07 split text into multiple columns
+分割和自訂分割
+將一個欄位分割為2個欄位
+例如 姓名 想分成姓和名 兩欄
+
+在匯入資料表的頁面 有preview預覽資料的窗格
+每一欄資料上方都有 藍色abc 右上角有三角形下拉選單
+可以選擇 split分割
+姓名(以空格分隔)就變成了兩欄
+
+欄位-split1 欄位-split2
+再按右上角有三角形下拉選單 可以rename重新幫欄位命名
+
+右上角有三角形下拉選單 還有custom split自訂分割
+可以客製化你要用什麼來分割這個欄位
+
+
+02 08 present data using storylines
+台上報告可以使用:檔案條=>故事=>新增本文
+
+打開0208 storylines.twbx
+最底部sheet條 工作表的右邊 有"new story button"
+把左方story面板的sales by title sheet拖到中間
+則新增了一個story point
+
+中央 add a caption 可以加標題
+story1也可以改成自己的標題
+
+左方story面板 按 blank 新增新的story
+重複拖進去並且重新命名caption
+
+左方story面板 最下方 預設大小為1016x964
+按下三角形可以調整大小
+
+
+02 09 display source metadata
+
+0209_metadata.twbx
+進入datasource資料來源頁面
+預覽窗格的上方 sort fields的左邊兩個小圖示
+的右邊 manage metadata(管理員資料)
+
+點第一個 再捲到最後一個點shift
+全選data後可以copy到新的excel
+
+02 10 join related data sources(更新)
+關連兩個有欄位相同的資料表
+
+打開customers.xlsx
+再打開orders.xlsx
+兩者連接
+2020.2版要手動拖曳進去建立關聯
+
+02 11 join data sources with inconsistent field names(更新)
+關連兩個欄位不同名稱的資料表
+
+舊版
+differentnames.xlsx
+sheets拖進中間並建立關聯
+customer id = cust id
+2020.2版本
+也是這樣 沒有改很多
+
+
+03 managing Tableau worksheets and workbooks
+03 01 display the data underlying a workbook
+查看圖表的原始資料
+
+file條的data menu(資料)
+打開最底的red30techdata(資料名稱自訂)=>第三個欄位view data(檢視資料)
+
+滑鼠拖曳可以選擇資料
+按下ctrl可以選擇不連續的資料
+往下捲並點擊一欄shift可以選擇很長一欄資料
+按欄位名稱 即可sort data
+
+export可匯出(要錢)
+
+03 02 add, duplicate and rename worksheets
+
+右上角show me (顯示)按鈕就是畫圖的panel
+點擊打開或隱藏
+
+新增worksheet => 類似excel那樣 下方+號 可新增worksheet
+點兩下可重新命名
+
+複製工作表也是跟excel一樣 右鍵=>duplicate(重複)
+
+03 03 reorder, clear, and delete worksheets
+
+清空工作表
+=>file條=>worksheet工作表=>clear清除=>sheet工作表
+
+刪除工作表(跟excel一樣)=>點擊下方工作表右鍵=>刪除
+
+03 04 change a worksheet's tab color
+工作表tab可以換顏色
+=>工作表名稱右鍵=>換顏色
+
+03 05 show or hide worksheet elements
+為工作區騰出空間
+
+儀錶板上的東西例如 marks 都可以按上方的三角型藏起來(隱藏卡)
+如果想要這些東西回來
+worksheet工作表=>show cards顯示卡 => reset cards重設卡
+
+worksheet工作表=>show caption顯示說明文字=>會出現AI自動說明這些資料在做甚麼
+
+資料儀錶板也能藏起來
+他會藏到最左下角 很難發現 但點擊他的三角形就會回來
+
+03 06 save your changes
+"revert to save" is only available for .twb
+not for .twbx
+
+03 07 save your workbook as a pdf file(要錢)
+檔案=>存成pdf 
+show selections:顯示你點擊的東西
+
+03 08 create a packaged workbook(要錢)
+file=>export packaged workbook=>save as .twbx
+
+03 09 export data to a csv file
+file條data資料=>你的檔名=>export as csv將資料匯出為csv
+
+03 10 export visualization to powerpoint(要錢)
+檔案=>export as powerpoint
+
+
+04. Create Custom Calculations and Fields
+04 01 Present Tableau operators and built-in functions
+
++:addition(包括日期), 字串串接
+-:subtraction(包括日期), negation
+*:乘
+/:除
+%:餘數
+^:指數
+=:一個等於就是等於
+<>:不等於
+SUM, AVG, MIN, MAX
+STDEV=標準差
+ABS=絕對值
+CEILING=無條件四捨五入至整數 rounds a number up to the next integer(4.01會變成5)
+FLOOR=無條件四捨五入捨去至整數 (4.99會變4)
+ROUND=四捨五入
+
+
+0402 Create a calculated field
+計算數值
+
+file條
+analysis分析=>下方create calculated field建立導出欄位
+
+給他一個名字 total sales
+[Price]*[Quantity]
+左下角the calculation is valid
+按ok
+
+表格區就出現了一欄叫做 total sales
+
+若不滿意這個名字 就按左邊工作表
+三角形或右鍵=>rename 重新命名
+三角形或右鍵=>edit 修改公式
+三角形或右鍵=>delete 刪除
+
+0403 Create a calculated field on a shelf
+直接在欄裡做計算
+
+在中間欄的column裡面點兩下 打入
+[Price]*[Quantity]
+(不用打=)
+
+還可以拖到左方欄 新增一個欄
+並更名做total sales
+
+按esc以跳出選取
+
+0404 Add a table calculation
+新增表計算(須複習)
+
+檢查左方的mark標記卡
+會發現計算方式是sum
+按三角形
+找到quick table calculation
+選running total
+
+mark標記卡的sum
+按三角形
+找到edit table calculation 編輯表計算
+
+mark標記卡的sum
+按三角形
+找到clear table calculation清空表計算
+
+mark標記卡的sum
+按三角形
+按下add table calculation(新增表計算)
+出現對話框
+上方預設為difference from(差異)
+下拉選單有其他選項
+中間選擇table(down)
+最下方選擇related to=>previous
+打勾show calculation assistance
+
+mark標記卡的sum
+按三角形
+按下edit table calculation 編輯表計算
+編輯對話框
+上方選擇percent of total
+中間選擇table across
+最下方選擇related to=>previous
+打勾show calculation assistance
+
+mark標記卡的sum
+按三角形
+找到clear table calculation清空表計算
+data 回復原狀
+
+
+0405 Use level of detail expressions
+(可複習)
+
+difference from average
+在欄上打
+[order total] - {AVG(order total)}
+
+0406 Create calculations in dialog boxes
+(可複習filters)
+
+按中間的列=>三角形=>filter篩選條件
+出現對話框
+找到第三個tab=>condition tab條件
+選擇中間的by formula按公式
+鍵入
+[prod catagory] >="eBooks"
+數據就變了
+
+取消打勾by formula 數據又回來了
+
+5. Analyze Data
+0501
+Calculate averages, medians, minimums, and maximums
+計算中位數 平均 最大值和最小值
+
+選取資料拖到中間的shlf
+sales by region列rows shelf
+order total欄column shelf
+
+標記卡的sum total三角形
+=>measure(度量)
+=>按下average
+=>就變成average order total
+
+可以再把左方的order total拖進來
+(預設為sum)
+現在就有三欄了
+
+median中位數:
+=>measure(度量)
+=>按下中位數
+
+maximum 最大值
+=>measure(度量)
+=>按下最大值
+
+
+0502
+Count occurrences and distinct items
+(可複習)
+計算每個類別一共對應到幾個值
+例如每個prod catagory都對應到幾個銷售量
+
+analysis分析=>create calculation field
+命名為distinct products
+對話框裡面打入
+COUNTD([prod name])
+
+
+
+
+0503
+Display the Summary Card
+
+sales totals欄
+employee job title列
+
+file條=>worksheet工作表=>show summary
+右方出現summary卡
+
+ 簡單敘述了平均 中位數 最大最小值等
+
+上方toolbar條 可以sort data
+
+0504
+Calculate percentages within a table
+計算百分比
+例如計算每個職位對銷售額占的百分比
+
+file條
+Analysis=>percentage of=>column
+
+file條
+Analysis=>percentage of=>pane(意思是表中央以粗直線分割的每個版面)
+
+file條
+Analysis=>percentage of=>none 清除
+
+0505
+Forecast future values
+(可複習)
+
+先讓中間出現折線圖
+
+左方資料面板
+有analytics分析面板 切換到analytics分析面板
+Model模型=>forecast趨勢預測
+拖到中間圖
+
+圖會出現預測以及信賴區間
+
+中間欄的三角形=>more更多=>custom自訂
+會出現一個對話框
+create a custom date for this field
+選擇date value
+
+
+6. Sort and Filter Tableau Data
+0601
+Sort based on a field's values
+
+toolbar條=>工具列有遞增遞減排序的按鈕
+
+或是你按中間欄/列的三角形選單
+=>也有sort按鈕
+會出現詳細的對話框
+
+詳細對話框可以設定依照什麼來排序
+sort by field 設定依照欄位名稱排序
+(可依照字母 欄位數值 巢狀 等排序法)
+=>descending
+field name=>鍵入你要依照他排序的欄位名稱例如
+number of records
+aggregation=>設定為sum (其他有中位數等等排序法)
+
+就算欄位沒出現在上面 
+依然可以用沒拖進去的欄位來排序
+
+清除排序
+=>中間欄三角形選單=>clear sort清除
+
+0602 create a multilevel sort
+多項的排序 有兩個欄位以上的排序
+
+範例
+欄位sales region 欄位2 prod category
+對應到數值sales
+
+我們現在想照prod category來排序
+欄位sales region不動
+=>去欄位2 prod category 三角形選單
+按sort排序
+選擇nested巢狀/descending遞減/field name欄位名稱:order total/aggregation彙總:sum
+
+0603
+Create a selection filter篩選
+
+中間欄位三角形(例如prod category)
+=>filter
+出現對話框
+可以勾選你想看到的項目
+exclude是相反 勾選你不想看到的項目
+
+0604
+Create a wildcard filter
+依照包含的字詞來篩選
+
+中間欄位三角形=>filter篩選
+出現對話框
+對話框第二個tab wildcard tab萬用字元
+輸入字串
+選項有
+contains/start with/end with/exact match
+還有exclude(排除) 可以選 (變成不包含)
+
+按clear 清除
+則data回來
+
+0605
+Create a condition filter
+條件篩選 例如只傳回銷售值低於多少的資料
+
+中間欄位三角形=>filter篩選
+出現對話框
+第三個condition tab(條件)
+
+選擇by field
+範例中
+Quantity欄位已選取 
+因為你是點quantity欄位的欄位三角形
+接下來可以設定大於小於
+按下load button 會先給最大值和最小值
+讓我們知道在看哪個欄位
+
+若要清除篩選
+就點最上面的none 
+filter就會被清除
+
+0606
+Create a top filter
+選前幾高或前幾低的欄位
+
+本範例中央是一個tree map
+
+萬一欄位上沒東西怎麼辦
+從左邊把要分析的欄位拖到左邊的 filter卡(篩選條件卡)
+就會開啟 filter對話框
+
+按第四個 top tab
+選取 by field
+選top 鍵入3
+選order total (欄位自訂)
+選sum
+
+會發現tree map
+剩下三個order total (欄位自訂)
+最高的region
+
+若是選bottom鍵入2
+tree map剩下兩個order total (欄位自訂)
+最低的region
+
+要清除就從左邊把要分析的欄位拖到左邊的 filter卡
+按下non即可清除
+
+0607
+Edit, clear, and delete filters
+
+篩選條件卡 => 三角形選單
+編輯篩選條件(選none來清除篩選)
+
+或是上方的欄位或列=>三角形選單=>編輯篩選條件(選none來清除篩選)
+
+清除全部的篩選條件
+workbook工作表=>clear清除=>filters篩選條件
+會清除掉全部的篩選條件
+
+一個個清除=>篩選條件卡=>將要清除的篩選條件
+拖曳到左方放資料的
+dimension tab
+拖掉這個tab就會清除篩選條件卡
+
+0608
+Show or hide sorting controls
+
+中間資料圖表也有欄位名稱 上方有三角形
+跟excel一樣 可以直接點欄位來建立篩選
+
+如果不要或要這個功能就去
+workbook=>show sort controls(顯示排序控制項)
+=>關閉或開啟
+
+0609
+Filter data using parameters
+(可複習)(較少用)(免費版不太一樣)
+parameter based filter
+
+去左方dimension tab的資料
+找到order total欄位
+右鍵=>create建立=>parameter參數
+
+給這個參數一個名字叫做parameter filter
+datatype:integer (float改成integer)
+current value:4
+allowable values:選range
+range of value:min:4 改成2
+max:83885 改成7
+step size:(若是2就會是1 3 5 7)此處不動
+
+左邊data出現新欄位:
+你的parameter filter
+
+去左方dimension tab的資料
+找到order total欄位
+拖進篩選卡
+對話框的第四個tab 建立top filter
+選by field
+選top 
+選你的parameter filter
+
+左邊data
+選你的parameter filter
+右鍵
+show parameter control顯示參數
+
+右邊會出現面板
+拖曳即可決定你的tree map有幾欄
+本範例會是2到7欄
+(免費版略有不同)
+
+0610
+Edit and delete parameters
+(較少用 可複習)(免費版略有不同)
+
+承上個範例
+左邊data
+你的parameter filter
+右鍵編輯parameter
+右鍵show parameter control顯示參數
+也可以右鍵delete
+
+7. Define Groups and Sets
+0701
+Define a group
+組成群組 例如一個公司併購了另一個
+
+去中間資料表位
+選擇A公司 ctrl B公司
+會跳出小小的橫的工具箱
+按工具箱裡面的group members
+組成群組/組成員
+就能將這兩個公司組成群組(數值會自動加總)
+
+0702
+Define a group for other values
+想把除了A和B以外的東西都組成群組怎麼辦
+group anything else together
+
+去左邊找你的資料欄位 例如prod category
+三角形=>edit group編輯群組
+點選左下方的include 'other' checkbox (包括「其他」)
+
+第二個方法
+去中間shelf 找到你的欄位三角形選單
+點選"include 'other'"(包括「其他」)
+想取消的話就反點選即可
+
+0703
+Find members of a group
+想新增成員但不想浪費時間捲動來找 就用搜尋的
+
+去中間shelf 找到你的欄位三角形選單
+或去左邊找到你的資料三角形選單
+本範例是prod category(group)
+打開三角形選單=>編輯群組
+=>出現群組對話框
+右下角"find" button 尋找
+出現你可以用關鍵字尋找新成員的對話框
+鍵入關鍵字後設定range:all 
+按下find all 尋找
+來尋找要新增的成員
+我們發現鍵入關鍵字後find all 尋找
+上方有些被highlight的是我們成員
+右上角add to
+選你的群組
+這個新成員就被加入你的群組了
+
+0704
+Edit and delete groups
+
+想移除群組某一成員時
+去中間shelf 找到你的欄位三角形選單
+或去左邊找到你的資料三角形選單
+打開三角形選單=>編輯群組
+選擇那個要移除的成員 選ungroup
+他就會被移出群組
+可以rename 建立別名(或直接點資料上的群組按右鍵
+)
+
+解散群組
+要ungroup群組就去上方toolbar條ungroup members
+或是直接去中間按你的群組資料
+會出現小橫toolbox 有解散群組的選項
+
+0705
+Define a set
+
+在中間資料表 用ctrl選擇兩個資料
+會跳出小橫toolbox
+上面有交集圖案 create set(建立集合)
+幫他命名為你的set 按確定
+
+左方data出現一個欄位名叫你的set
+把"你的set"拖到篩選卡
+資料就會自動篩選出只剩這個set的資料
+
+把"你的set"從篩選卡拖曳回左方 (移出篩選卡)
+資料就能恢復原狀
+
+0706
+Create summaries using sets
+如何把資料分群 並分別加總(可複習)
+
+把你的set拖到shelf欄位的左邊
+就會出現in and out (in set)/(out of set)
+(在分群之內/在分群之外)
+的summary
+
+file條
+analysis menu(分析)
+=>totals(合計)
+=>第五個add all subtotals(新增所有小計)
+=>每個set就會有自己的subtotal(小計)
+
+想移除
+就把上方 你的set移到左邊 移出shelf
+
+0707
+Combine sets
+把兩個set合在一起
+
+=>左方資料欄
+=>ctrl選取兩個set 
+右鍵=>create combined set建立合併集合
+出現create set 對話框
+選擇聯集 幫她取個新名字叫你的新set
+
+左方資料欄就出現你的新set
+可以拖進篩選卡
+變成篩選條件
+
+0708
+Edit and delete sets
+要從sets移除成員怎麼辦
+左方資料欄選你的set
+=>右鍵=>編輯set(編輯集合)
+出現對話框
+裡面可以看清楚set有幾個成員
+滑鼠移到成員 會有小叉號
+按叉就能移除成員
+
+左方資料欄選你的set
+=>右鍵刪除
+可刪除set
+
+8. Develop and Pivot Crosstabs
+0801
+Develop a crosstab
+crosstab又稱pivot table
+
+file條 worksheet工作表
+=>下方duplicate as crosstab
+(重複為交叉資料表)
+=>即可新增工作表為pivot table
+
+0802
+Unpivot a crosstab
+就是shelf上的欄和列移來移去而已
+
+0803
+Add totals and subtotals to a crosstab
+
+在你的交叉工作表(樞紐分析表)出現時
+Analysis分析
+=>totals 合計
+=>show row grand totals 顯示列總和
+show column grand totlas 顯示欄總和
+可以兩個都勾選起來
+
+
+如果想要多區的小計怎麼辦
+row位再多拖一個進來
+現在有一個欄 跟兩個row
+Analysis分析
+=>totals 合計
+=>第五個add all subtotals 新增所有小計
+
+
+9. Create Basic Visualizations
+0901
+Create column and stacked column charts
+堆疊直方圖
+
+show me 顯示=>繪圖版面
+
+範例:
+中間欄位
+row shelf:product category
+col:sum of order total
+
+直方圖:一欄一列
+stacked bar chart:兩欄一列 (範例中加入sales region)
+
+改變欄位中的column順序以調整圖片
+
+0902
+Build line charts and area fill charts
+時間序列&有日期的data 折線圖
+
+折線圖:
+本範例shelf
+欄:order date
+列:
+值:order total
+shelf上欄位三角形=>可以選擇quarter(季)
+shelf上欄位三角形=>可以選擇month (月)
+
+area chart
+欄:
+[prod category][order date]
+值:order total
+出現以時間為x軸 銷量為y軸的各種商品銷量圖
+
+0903
+Develop pie charts
+
+列:[prod category]
+值:order total
+
+點選pie chart上某個項目
+=>小橫toolbox=>exclude排除
+就可以把這個項目排除在外
+
+查看你的篩選卡=>三角形選單edit filter編輯篩選條件
+=>filter對話框
+=>會發現你選擇了exclude(排除)那兩個欄位
+
+查看你的篩選卡=>三角形選單clear filter
+就清除了篩選
+
+0904
+Create scatter plots
+散布圖:兩個值 查看兩個值是否有關聯
+
+欄:[time since previous order]
+列:order total
+
+[重要]
+如果發現只有一個點
+file條analysis分析=>
+aggregate measures彙總屬性度量
+取消打勾
+
+改變圖示美工外觀
+=>marks card左方標記卡
+=>shape 圖形改成實心圓形
+=>size 圓形大小
+
+
+0905
+Identify data clusters
+一群的data
+
+欄:[income]
+列:sales total
+
+左方資料欄切換到analytics tab分析tab
+找到cluster叢集
+拖到中間
+散布圖就產生了叢集
+
+會發現有三個cluster of customers
+
+左方標示卡marks tab
+最下方會出現clusters
+按三角形 edit clusters編輯叢集
+
+出現對話框 number of clusters叢集數目
+預設為自動 你可以填入你要的數字
+例如4
+
+左方標示卡marks tab
+最下方會出現clusters叢集
+按三角形 describe clusters描述叢集
+出現對話框
+可看ANOVA P值遠小於0.01 goodness of fit佳
+
+想移除cluster
+把左方標示卡最下方的clusters
+朝左拖曳掉即可
+
+0906
+Create histograms
+
+frequency table
+
+只需要一個欄位
+值:order total
+
+我們要加入兩個篩選器
+第一個 order type拖進篩選卡
+出現對話框 
+範例只選取wholesale box=>ok
+
+第二個 product name拖進篩選卡
+範例只選取DS145=>ok
+
+選取histogram
+
+0907
+Summarize data using a smart histogram
+改變histogram寬度
+
+承上個範例
+左方資料欄出現新東西
+order total(bin)
+右鍵編輯之
+size of bins 2470 wide
+=>你可以自己編輯成1000=>OK
+histogram變得更詳細
+
+0908
+Make a treemap
+
+列:prod category
+值:order total
+
+顯示=>tree map
+
+10. Format Tableau Visualizations
+1001
+Change the visual summary type
+在顯示裡切換圖表類型 很簡單
+
+1002
+Change the appearance of your data
+樣式和字型的改變
+
+file條format
+=>font字型
+=>左方出現面板
+左面板sheet tab=>title=>改變字型和大小
+
+file條format
+=>shading
+=>表格設計樣式
+
+file條format
+=>borders
+
+1003
+Resize a visualization
+放大縮小圖
+將你的游標在chart邊緣移動
+游標變成可放大縮小時拖曳以放大
+
+1004
+Display a visualization in Presentation mode
+進入投影片模式
+第一個方法
+上方工作條=>enter presentation mode簡報模式
+
+第二個方法 按F7
+
+最右下角 exit full screen (或F11/Esc)
+
+1005
+Create a highlight table
+
+中央是你正常的table
+show me顯示
+=>最右上角 highlight table
+會以顏色深淺指出數字大小
+
+改顏色=>marks card標記卡下方
+有顏色方塊 按下可以改顏色
+
+1006
+Display a viz in a tooltip
+(可複習)(較不重要)
+
+工具提示
+=>就是滑鼠hover到圖表上會出現的box資訊
+
+範例中央是個樹狀圖
+標記卡=>tooltip工具提示
+=>可以插入工作表
+
+11. Annotate and Format Visualizations
+1101
+Annotate a visualization
+加入文字方塊
+
+中央是畫圖區域 已經有一個圖
+在空白處點擊 annotate新增註解
+有point點
+和area區域
+可以選擇
+此時先選area區域
+
+可以在圖上的某個點
+點擊annotate新增註解
+選mark標記
+就可以在圖上的點上加文字方塊
+
+要刪除就按delete
+或是點擊文字方塊=>右鍵移除
+
+1102
+Format chart elements
+改變圖表的外觀
+
+現在要改顏色 size
+範例中央是一個折線圖
+按一條折線
+左方 標記卡marks
+顏色方塊 可以改顏色
+size方塊 可以改顏色粗細
+label標記方塊 
+按下show mark labels顯示標記標籤
+可以加上圖表每個點的數值
+也能改字型
+
+XY軸也能改變
+例如按Y軸=>右鍵=>edit axis編輯軸
+出現編輯軸對話框
+
+編輯軸對話框一般tab
+range區 範圍
+選fixed 固定 (常用)
+可以選擇起點和終點
+
+編輯軸對話框一般tab
+scale區 比例
+reversed:變成最小值在Y軸上方(倒序)
+logarithmic:for scientific data(對數)
+
+編輯軸對話框一般tab
+Axis title區 軸標題
+編輯軸的title
+
+編輯軸對話框 tick marks tab 刻度線
+這邊先不動
+
+下方reset可以重設
+
+新增drop lines標記線
+選取圖上一個點
+右鍵=>drop lines標記線
+=>show drop lines新增標記線
+就會出現從軸到點的水平垂直線
+再右鍵一次=>drop lines標記線
+=>edit drop lines編輯標記線
+可以選擇只要X軸或Y軸的drop line標記線
+或是只有滑鼠移上去點時才有drop lines標記線
+還有labels可以選要不要加
+
+1103
+Change the color sequence in charts
+讓長條圖變成彩色(免費版或舊版略有不同)
+
+範例中央是長條圖
+vertical bar chart / column chart
+想要他變彩色的怎麼辦 
+
+把他使用的欄位(此處是prod category)
+拖曳到marks card標記卡
+就會變成彩色長條圖
+
+右上方出現圖例面板 有圖例
+想改變長條圖的順序
+只要往上往下拖曳圖例上的東西
+就能改變items在長條圖上的順序
+
+右上方出現圖例面板 也能改顏色
+右上方面板三角形=>edit colors
+可以改變色票 下面assign pallets改全部的theme
+也可以點擊左邊色塊 點擊右邊色塊
+改變其中一條的顏色
+
+1104
+Add a trend line to a chart
+加入趨勢線
+
+本範例一開始是一個折線圖
+
+左方資料欄位切換到analytics分析tab
+有trend line趨勢線
+拖曳到中間的圖
+出現線性 多項式等等的趨勢線類型
+拖曳到線性上面 就出現趨勢線
+
+現在我們按這個趨勢線
+會出現公式 R^2 (最好接近1)  和P值(最好小於0.05或0.01)
+
+現在我們按這個趨勢線右鍵edit all trendlines編輯趨勢線
+出現編輯趨勢線對話框
+下面有show confidence bands
+秀出信賴區間95% 可以打勾
+
+改變趨勢線的外觀
+現在我們按這個趨勢線右鍵
+format 改變格式
+就能改變格式和外觀
+左方面板trend line 三角形選單可以改顏色
+
+現在我們按這個趨勢線右鍵
+還可以隱藏趨勢線 趨勢線就不見了
+
+1105
+Add reference lines, distributions, and boxes
+
+
+本範例一開始是一個折線圖
+要加上reference lines參考線
+例如我想加入一條橫線意思是平均值
+按圖上的軸右鍵
+=>最底部add reference line新增參考線
+出現對話框
+Line tab line區=>values=>average平均值
+=>OK
+就出現平均值的參考線
+
+在參考線上右鍵 可以edit或format
+改格式就選format
+左方就有改變外觀格式的面板
+
+如果我們要加上最大值最小值的區域
+按圖上的軸右鍵
+=>最底部add reference line新增參考線
+=>切換tab至band tab區間
+=>就會加上最大值最小值的區域
+band tab裡面也能設定平均值到最大值的區域
+只要在band tab裡面下拉選單設定即可
+
+按圖上的"軸"右鍵
+=>移除參考線
+
+加上四分位數的參考線:
+按圖上的軸右鍵
+=>新增或編輯參考線
+=>選擇distribution tab(分佈tab)
+=>選擇四分位數quantile 
+(右方選單選5 就變五分位點)
+=>OK 就加上四分位數
+
+按圖上的"軸"右鍵
+=>移除參考線
+
+1106
+manage visualization animations
+動畫(不重要)
+
+長條圖可以sort
+只要按上方toolbar橫條的sort即可
+遞增遞減排序
+
+format=>animation
+=>左方面板=>turn on 即會出現動畫
+
+或說明help=>設定和性能settings
+=>啟用動畫
+
+12. Map Geographic Data
+1201
+Create a basic map
+
+左方資料欄有地球圖示的資料
+資料上面點兩下就會出現map
+columns = longitude
+rows = latitude 
+欄列上是經緯度
+
+如果資料有誤
+右下角會出現warning
+說有幾個unknown
+點進去就有對話框 
+按 edit location 便知道詳細的unknown
+
+
+1202
+Add and remove map layers
+(無data可用 故可複習)
+
+改變地圖外觀
+File條Map=>background maps背景地圖
+=>light/normal/dark ...
+
+File條Map=>map layers地圖層
+左方出現地圖層面板
+可以改變背景樣式
+Data layer是預設的資料
+可以和預設的資料作比較
+
+1203
+Enhance map analysis using distance 
+量測距離
+(無data可用 故可複習 較不重要)
+
+滑鼠移進地圖
+地圖上出現放大區塊的直向小工具
+=>三角形=>
+第四個radial selection tool
+從中心點開始往外拖曳
+出現大圈圈
+可以計算出兩點間的距離 (例如28miles)
+
+1204
+Disable pan and zoom in maps
+(無data可用 故可複習)
+
+滑鼠移進地圖
+地圖上出現放大區塊的直向小工具
+=>三角形=>四方箭頭
+可拖曳地圖
++/-放大縮小地圖
+
+file條map地圖
+=>地圖選項map options
+=>map options 對話框
+=>allow pan and zoom勾選
+(反勾選就會不見 但不推薦)
+
+
+1205
+Define custom regions
+(無data可用 故可複習)
+
+滑鼠移進地圖
+地圖上出現放大區塊的直向小工具
+=>三角形=>長方形rectangle tool
+=>選取你要的點=>上方tool bar條group群組之
+左方資料欄就出現你選的群組
+
+按右方圖例面板
+可以換顏色
+選左邊色塊 選右邊色塊 來換點點的顏色
+
+
+13. Build Dashboards and Actions
+1301
+Build a dashboard
+建立儀錶板
+
+上方file條=>dashboard
+=>new dashboard
+
+最下方在新增sheet右邊的小圖示
+就是new dashboard button
+
+左方面板會出現你所有的工作表(sheets)
+拖曳到中間即可
+
+
+1302
+Arrange and resize dashboard elements
+(免費版有鎖儀表板)
+
+加入dashboard title儀表板標題
+左方面板最下方:勾選
+show dashboard title顯示儀表板標題
+就會加入儀表板標題
+
+左方面板
+size可以調整儀表板長寬
+可設為800*1000
+也可以選擇裝置 
+device可能是phone tablet等等
+
+1303
+Replace a worksheet in a dashboard quickly
+取代圖表/交換工作表
+
+儀錶板左方面板 滑鼠移到上面的sheet
+會出現swap交換工作表
+此時可以用這個圖表取代裡面的圖表
+
+或按下swap旁的go to this sheet小圖示去編輯圖表
+(有的版本沒有)
+
+1304
+Define a filter action
+建立一個篩選器 (類似Power BI)
+
+建立一個純文字工作表 
+"你的表"本範例是job by title
+去儀錶板 拖進去中間
+選取 "你的表" 右鍵 =>floating漂浮
+滑鼠移到 "你的表"的右邊第三個小圖示
+controls
+點一下 就開啟了"use as filter"
+(用作篩選條件 漏斗圖示)
+就變成篩選器
+點選他可以和圖表互動
+要選取多個篩選項目只需用ctrl 
+
+要disable篩選器則
+滑鼠移到 "你的表"的右邊第三個小圖示
+點一下 就disable filter 不使用於篩選條件
+
+1305
+Define a highlight action
+醒目題示 highlight
+和篩選器不一樣
+把上個範例的"你的表"
+先disable filter 不使用於篩選條件
+
+file條dashboard儀錶板
+=>actions動作(ctrl+shift+D)
+出現action動作對話框
+
+action對話框左下角add action新增動作
+=>highlight醒目題示
+
+出現highlight醒目題示對話框
+隨便幫他命名成"你的highlight"
+確定你要affect的sheet都打勾了
+右邊選擇hover就是滑鼠移過去會highlight(但容易分心)
+選擇select就是點選他會highlight
+通常選擇select
+target highlighting:fields(所有欄位)
+按OK
+
+此時你點選的項目就會highlight所有有關的項目
+(但如果圖表裡重複這個項目很多次 
+可能會有一些地方漏選
+最好是另位建一個純文字表格"你的表" 用於highlight或篩選)
+
+
+1306
+Define parameter actions( a URL action)
+(複雜 不重要)
+
+進入工作表(不是儀表板)
+左方data 資料tab的
+維度dimension的右邊三角形
+=>create parameter建立參數
+
+命名為"REFLINE你的參數"
+data type:float
+current value:1
+allowable values:all
+=>OK
+左方資料欄出現一個參數叫做"REFLINE你的參數"
+
+file條worksheet工作表
+=>actions動作(ctrl+shift+A注意跟儀表板的動作不同)=>
+action對話框左下角add action新增動作
+=>change parameter變更參數
+
+出現變更參數對話框
+target parameter選"REFLINE你的參數"
+field 選SUM... aggregation也是sum
+
+現在去左邊analytics tab
+把reference line(輔助線/參考線)拖進中間
+出現參考線對話框
+line tab的Line區
+=>value選擇"REFLINE你的參數"
+label:選value
+
+出現一條線 你不管移到哪都會出現這條橫線
+
+15
+Conclusion
+Next steps
+
+
+
+Source:
+Tableau EssTraining (2020.1)

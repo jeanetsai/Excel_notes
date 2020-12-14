@@ -1,0 +1,402 @@
+app.powerbi.com
+
+ch2 get data
+
+02 01 
+左下角 get data
+02 02
+install apps
+02 03
+將檔案存在雲端:refreshable data files
+02 04 upload a csv file
+選擇檔案並按右上角黃色connect
+右方面板fields
+可發現你有六欄的資訊
+02 05 upload excel
+<注意:資料必須被format為table => 按下去時會出現表格設計>
+選擇檔案並按右上角黃色connect
+=>import
+02 06 connect to samples
+Get data頁面中間是從雲端和本機匯入檔案
+下方有samples data
+按下retail analysis sample
+=>connect
+
+刪除檔案=>my workspace=>按檔案上的三個點
+=>delete=>reports and dashboards都會被刪除
+
+03 01 overview
+使用sample檔案的retail analysis sample
+發現有很多圖
+page tabs 來看 page2: district monthly sales
+發現另一堆圖
+第三頁 new stores
+發現另一堆圖 line charts column charts map charts
+
+中間介紹各種視覺化圖
+slicer=>filters
+
+0302
+Report analysis sample
+圖表上按三個點=> 可以comment
+當圖表資料很多時=>右上方三個點=>focus=>聚焦在此圖片
+右方有filters面板 可篩選過濾條件
+左方三條線=> 可回workspace
+
+0303
+上方export條=>三個點=>將report save a copy
+
+左方三條線=> my workspace=>retail analysis=>進入編輯頁面
+編輯頁面 最上方是file條
+右方fields 打勾你要看的欄位=>圖表會自動出現
+
+0304
+My workspace=>檔案區=>右方create a report
+
+進入編輯頁面 下方page 1
+按 visualization 的隨便一個圖
+中央會出現圖
+要加入資料只要右方fields打勾資料即可
+
+0305
+Visualization v面板下方三個圖示
+=>可以設計圖表細節，可加入title
+
+如果是地圖，v面板可以將zoom打開
+地圖就可以放大縮小
+還可以調整成heat map熱點圖
+
+Data label 可以將數字取到小數點第n位
+
+03 06 create chart visualization
+
+下方 （+）加入 page2
+上方file條的view=>可將圖表調成actual size 比較大
+Fit to width較小
+可以Ctrl +c ctrl +v 複製圖表 然後在field面板改變勾的數據
+
+按面板上的>可以收合面板
+讓工作區域更大 圖表更清楚
+Ctrl +z undo
+ctrl+y redo
+
+03 07
+Use text map and gauge visualization
+
+先建立一個map 勾city
+
+V面板有arc gis map可以選
+
+Gauge圖可以顯示離目標多遠
+加入數值可以用拖的 把field相關欄位拖進value （例如銷售直）max value(例如銷售目標
+
+03 08
+Use a slicer to filter visualizations
+
+V面板有slicer篩選條件可以點
+建立slicer(field面板選city)
+使用這個 可以控制地圖出現的城市
+即時互動
+
+03 09
+Sort copy and paste visualization
+可以Ctrl +c ctrl +v 複製圖表 然後在field面板改變勾的數據
+
+03 10
+Download and use a custom visual from the gallery
+
+想畫上面沒有的圖該怎辦？
+V面板 紫色按鈕 Import a custom visual
+Import from app store
+可打開power Bi marketplace
+來安裝想畫的圖
+
+
+04 modify and print a report
+04 01 manage report pages
+
+File條上有reading view
+可以export
+
+
+04 02 add a filter to a page or report
+File條上有 duplicate this
+可以複製工作表
+漏斗filter面板 filter on this page
+把field面板的territoty拖到filter面板
+就會出現以territory為主的篩選條件
+
+Filter type: advanced filtering 進階過濾條件
+
+漏斗filter面板 filter on all pages
+是針對所有工作表用filter (記得另存新檔）
+
+
+File條：report view
+按上方切換reading view
+則變成export條
+上方可以reset to default
+
+
+04 03 set visualization interactions
+重要 關掉圖表的interactions 免得亂點圖片去影響到其他圖
+
+Reading view按上方三個點=>edit
+會進入report view
+
+只想動到一個圖時
+把其他圖右上角按none
+或是去file條的visual interaction=>edit interactions=>off
+
+
+04 04 print a report page
+
+在reading view=>export條=> export=>print
+
+
+04 05 export to ppt or pdf
+
+在reading view=>export條=> export=>
+Export to pdf (只要目前頁面就exclude hidden report tabs)
+
+在reading view=>export條=> export=>
+Export to ppt (只要目前頁面就exclude hidden report tabs)
+
+
+05 create a dashboard
+05 01 create and manage dashboards
+想輸出單一圖表
+對圖表右鍵=>focus mode=>看到圖表放大=>右鍵print
+
+0502
+Pin a report tile to a dashboard
+
+圖表上方的釘子=> pin to a new dashboard
+
+左方my workspace=> 可找到這個dashboard
+
+0503
+Pin a live report page to a dashboard
+圖表資料更新時怎麼辦？
+Export條三個點=>refresh重新整理
+
+上一個範例直接從圖表上方去pin
+會成為無法互動的圖表（例如自動篩選條件）
+
+要pin可以互動的圖表則要
+Export條/file條=> 三個點 pin a live page
+
+0504 pin a tile from another dashboard
+0505 add a tile to a dashboard
+
+在pin了一些圖表的新檔案中
+Export條 ->+add tile 可加入自己的影音圖片和文字方塊
+
+點擊加入的tile即可編輯或刪除
+
+0506 add a commant or alert to a tile
+
+銷售業績22m，想在超過某個門檻時alert該怎麼做？
+
+圖表右上方三個點=>create alert
+Conditions: above
+Threshold: 你的目標數值 例如21m
+Alert frequency: At most once an hour
+
+達到門檻時 圖表左上方會出現鐘形的alert
+
+0507 subscribe to a dashboard or report
+
+Export條=>subscribe
+
+
+0508 build a dashboard with quick insights
+自動產生圖表
+
+左方進入 my work space
+選dataset欄=> 任一資料表右方三個點=>provide quick insight
+就會自動產生一些圖表
+
+0509 create a mobile view
+
+Export 條三個點=>mobile view
+=>進入手機瀏覽頁面 右上角可切換回web view
+
+0510 set a featured (default) dashboard
+
+如何置頂一個dashboard
+Export條三個點=>set as featured
+Export條三個點=>Disable featured:取消置頂
+
+06 QA
+0601 ask a question
+智能問答 他會自動產生圖表給你
+What is x versus to y “as a pie chart”
+
+0602 tweak your dataset for QA
+再次提醒 excel裡的表格要「格式化為表格」最好再替這個表格命名
+並且欄位名稱應淺顯易懂
+AI才讀得出QA
+
+07share data with colleagues and others
+0701 overview:sharing reports and dashboards
+完整的share需要pro
+
+0702
+Publish a report to the web
+Export條三個點=> embed => publish to web
+注意這種分享是公開的
+
+0703
+Manage pushed reports
+
+最右上方三個點=>settings=> manage embed codes
+可以刪掉這分享
+
+
+0704
+Embed a report in share point online
+
+Export條三個點=> embed => publish to sharepoint
+需要時再複習
+
+0705
+Share a dashboard or report
+Pro才能用 需要時再複習
+
+0706
+Create a workspace for collaboration
+
+建立一個合作的工作空間
+左方workspace=>create workspace
+
+0707
+Add users to a workspace
+
+Viewer只能看
+Contributors 可以編輯和分享
+Members 有上述權限並可以加入新的人
+Admin 管理員
+
+Workspace上方access
+加入email 並調整權限
+大家都需要pro liscence
+
+
+0708
+Use a workspace
+
+加入檔案
+
+0709
+Publish an app
+
+Workspace 最右上角 publish an app
+需要時再複習
+完成後 go to the app
+
+0710 create a QR code to share a file
+
+產生某個圖表的QR code
+圖表=>focus mode 放大=> 最右上角三個點=>產生QR code
+
+
+
+08 power bi mobile
+0801安裝
+0802可以幫圖表加註解
+0803
+0804
+0805 win10 app
+
+09 using power bi desktop
+0901 install and launch
+可匯入更多種資料
+Model data
+Relate data
+
+0902 get data
+
+上方get data可匯入資料
+左方三圖示
+左一 report mode 進入編輯報表的主畫面
+左二 table data view 查看資料
+左三 資料表關聯
+
+
+0903reduce data
+
+左二 table data view 查看資料區
+
+上方file條 有 Edit Queries => Edit Queries可以進去詳細編輯資料
+
+開啟 power query editor
+
+資料上方都有倒三角形 可篩選掉空白不需要的data
+資料上方有abc 表示文字 123 表示數值
+
+可以remove column
+也有remove rows選項
+
+存檔 pbix
+
+0904transform data
+
+上方file條 有 Edit Queries => Edit Queries可以進去詳細編輯資料
+
+上方home條=>data source settings
+
+上方home條=>split columns
+Data type:text 可以改變
+Use first row as header => 選取Use first row as header
+
+上方transform條=>有很多功能
+先選取欄1 欄2 =>上方transform條=>unpivot columns=>unpivot other columns
+右方query settings可以undo
+
+
+上方transform條=>transpost轉置
+上方transform條=>reverse rows (最後一列變成第一列)
+上方transform條=>Rename =>rename column
+
+
+0905relate tables
+
+Get data => excel => 開啟excel1
+會列出工作表
+選取三個有關聯的工作表
+
+左三 資料表關聯區
+會發現欄位未命名 
+
+上方file條 有 Edit Queries => Edit Queries可以進去詳細編輯資料
+
+打勾(重要)=>home條=>點左邊的表 依序 use first row as header
+=>close apply 回到左三 資料表關聯區
+
+抓住表1的state 拖曳到表二的abrv
+就能把這兩欄建立關聯
+ 
+回到左一編輯頁面
+三個檔案已關聯
+可以透過簡單的打勾來畫圖表
+
+0906 get data with the power BI service
+
+存成pbix後可以分享到one drive
+
+
+0907 export a report from power BI service to desktop
+
+1001 Conclusion
+有多個目標可以選
+
+
+最後注意兩點:
+1. 匯入excel 時 要確認裡面的表格已格式化為表格
+2. first row as header 要打勾
+
+
+Source: Power BI EssTraining
+
+
