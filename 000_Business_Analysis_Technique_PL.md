@@ -5,7 +5,7 @@ ch4:Risk Analysis & Management
 ch5:Strategy Analysis七步驟
 決定目標、產生idea、戰略資訊(問卷 焦點團體)、資訊分析(data mining)、解決方案建模、量測結果、持續改進
 
-01_Course_Overview
+01 Course Overview
 [Business Analysis Value Spectrum]
 <Potential>=>
 [Strategy Analysis]
@@ -23,7 +23,7 @@ Pilot/Beta
 Operating
 =><Actual>
 
-02_Introduction
+02 Introduction
 Strategy Analysis Tasks
 
 1. Analyze Current State
@@ -36,14 +36,14 @@ Strategy Analysis Tasks
 3. Understanding organizations through business model canvases
 4. Analyzing organizational capabilities
 
-03_Using_SWOT_Analysis_to_Understand_Organizational_Footing
+03 Using SWOT Analysis to Understand Organizational Footing
 SWOT:
 Strengths
 Weaknesses
 Opportunities
 Threats
 
-04_Holistic_Organizational_Assessment_with_Balanced_Scorecards
+04 Holistic Organizational Assessment with Balanced Scorecards
 
 Balanced Scorecard:
 1. Strategic tool that uses more than financial measures to assess organizational performance
@@ -57,6 +57,7 @@ Financial   Internal
 			Process
 		Vision &
 		Strategy
+		
 Learning &	Customer
 Growth
 	
@@ -82,7 +83,7 @@ Profitablity
 Revenue growth
 Cost efficiencies
 
-05_Understanding_Organizations_through_Business_Model_Canvases
+05 Understanding Organizations through Business Model Canvases
 [Business Mmodel Canvas]
 Illustrates the creation
 and exchange of value between
@@ -149,7 +150,7 @@ Human resources: The staff, with requisite training and knowledge, required to c
 3. Traditional sales
 4. Lending, renting and leasing
 
-06_Analyzing_Organizational_Capabilities
+06 Analyzing Organizational Capabilities
 
 [Business Capability Analysis]
 Assesses the abilities an organization can bring to bear to accomplish oblectives
@@ -170,7 +171,7 @@ Communications
 User Acceptance Testing
 Usability Testing
 
-07_Module_Review
+07 Module Review
 [SWOT Analysis]
 lets analysts consider the alignment of strengths and weaknesses with opportunities and threats
 
@@ -191,14 +192,14 @@ allows the analyst to assess the capabilities an organization exhibits and how t
 Next:
 Analyzing Processes and Decisions from a Strategy Perspective
 
-08_Module_Introduction
+08 Module Introduction
 [Analyzing Processes and Decisions from a Strategy Perspective]
 1. Understanding Organizational Processes
 2. Analyzing Organizational Processes
 3. Modeling Decisions
 4. Analyzing Strategic Decisions
 
-09_Understanding_Organizational_Processes
+09 Understanding Organizational Processes
 [Process Modeling]
 Illustrates how work is completed and provides a framework for conducting process analysis
 1. May be tailored to dispaly different levels of detail and different scopes
@@ -221,7 +222,7 @@ Point at which the illustrated process flow diverges or merges
 6. [Role]
 Type of person or group related to the process in question
 
-10_Analyzing_Organizational_Processes
+10 Analyzing Organizational Processes
 [Process Analysis]
 Leverages process models to...
 1. Assess present effectiveness
@@ -243,14 +244,14 @@ May be applied to a variety of process models
 May require significant time commitment to yield valuable results
 Often ineffective when analyzed processes involve many decision points or rely heavily on organizaitonal knowledge
 
-11_Modeling_Decisions
+11 Modeling Decisions
 [Decision Modeling]
 Indicates how decisions are made within business processes by following rules or procedures
 
 [Decision Table]
 [Decision Tree]
 
-12_Analyzing_Strategic_Decisions
+12 Analyzing Strategic Decisions
 [Decision Analysis]
 Compares possible responses to problems or opportunities in order to assess their value given risk factors and uncertain outcomes
 1. [Probllem Statement]
@@ -287,7 +288,7 @@ Time to Launch 10% weight
 =>評分x權重 得到分數
 =>進行排名
 
-13_Module_Review
+13 Module Review
 [Process Modeling]
 illustrates how organizations accomplish work
 [Process Analysis]
@@ -301,12 +302,12 @@ evaluates alternatives for action and helps in moving change initiatives forward
 NEXT:
 Strategic Analysis and Management of Risks
 
-14_Module_Introduction
+14 Module Introduction
 [Strategic Analysis and Management of Risks]
 1. Incorporating Risk Management into Stratetic Planning
 2. Strategically Addressing Root Causes
 
-15_Incorporating_Risk_Management_into_Strategic_Planning
+15 Incorporating Risk Management into Strategic Planning
 [Risk Analysis & Management]
 1. Involves identification of threats and opportunities related to change initiatives, and developing response strategies
 2. Efforts should be continuious and commence deruing strategy analysis
@@ -396,7 +397,7 @@ Choose to take no action given the low likelihood or low impact of a particular 
 1. Strategy choices should be made consciously for known risks
 2. Strategies may shift as risk, knowledge of risk, or risk preferences shift over time
 
-16_Strategically_Addressing_Root_Causes
+16 Strategically Addressing Root Causes
 [Root Cause Analysis]
 Used to determine what causes may underlie symptomatic problems in the organization
 
@@ -419,7 +420,7 @@ Problem=>Cause Category 1.2.3...=>Primary cause=>Secondary cause
 [Examples]
 
 
-17_Module_Review
+17 Module Review
 
 [Risk analysis and management] should be integrated in crafting the business case, and consistently considered thereafter
 Different tactics may be best for dealing with each opportunity or threat
@@ -431,7 +432,7 @@ Ensures recommended solutions don't simply address surface-level symptoms, but d
 NEXT:
 Leveraging Additional Techniques to Conduct Strategy Analysis
 
-18_Module_Introduction
+18 Module Introduction
 Leveraging Additional Techniques to Conduct Strategy Analysis
 1. Framing Initiative Goals & Objectives
 2. Generating & Categorizing Ideas
@@ -441,7 +442,7 @@ Leveraging Additional Techniques to Conduct Strategy Analysis
 6. Defining & Gauging Initiative Success
 7. Maintaining Alignment in Change Initiatives
 
-19_Framing_Initiative_Goals_and_Objectives
+19 Framing Initiative Goals and Objectives
 [Framing Initiative Goals & Objectives]
 
 [Business Case]
@@ -549,7 +550,7 @@ Complex interactions between solution
 components may not easily be illustrated as
 a hierarchy
 
-20_Generating_and_Categorizing_Ideas
+20 Generating and Categorizing Ideas
 [Brainstorming]
 Focuses on generating new ideas
 in a rapid fashion for later analysis
@@ -589,7 +590,7 @@ relationships between elements
 May not convey information effectively
 to others lacking prerequisite context
 
-21_Eliciting_Strategic_Information_from_Stakeholders
+21 Eliciting Strategic Information from Stakeholders
 [Eliciting Strategic Information
 from Stakeholders]
 
@@ -738,7 +739,7 @@ the reality that is observed
 Limited to activities that aren’t purely
 knowledge-based and unobservable
 
-22_Eliciting_Strategic_Information_from_Organizational_Assets
+22 Eliciting Strategic Information from Organizational Assets
 [Eliciting Strategic Information
 from Organizational Assets]
 
@@ -856,7 +857,7 @@ Focus on visual aspects of solutions may
 inhibit discussion and development of
 underlying system functionality
 
-23_Modeling_Solutions_in_Organizational_Context
+23 Modeling Solutions in Organizational Context
 [Modeling Solutions in Organizational Context]
 
 [Organizational Modeling]
@@ -916,7 +917,7 @@ initiatives are not just financial in nature
 Opportunity cost is not always wellconsidered
 in financial analysis
 
-24_Defining_and_Gauging_Initiative_Success
+24 Defining and Gauging Initiative Success
 [Defining and Gauging Initiative Success]
 
 [Estimation]
@@ -1027,7 +1028,7 @@ Can be resource-intensive to conduct
 Not all industry-related information that
 may be relevant is necessarily available
 
-25_Maintaining_Alignment_in_Change_Initiatives
+25 Maintaining Alignment in Change Initiatives
 [Maintaining Alignment in
 Change Initiatives]
 
@@ -1149,7 +1150,7 @@ assessment of performance
 Documentation must be created and
 accessibility must be maintained
 
-26_Module_Review
+26 Module Review
 
 [Framing goals and objectives] allows
 analysts to define the case for action
@@ -1175,4 +1176,4 @@ acceptance criteria, partner performance,
 ongoing issues, and lessons learned
 
 
-Source:PL_business-analysis-techniques-conducting-strategy-analysis
+Source:PL business analysis techniques conducting strategy analysis
