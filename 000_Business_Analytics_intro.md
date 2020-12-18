@@ -1,7 +1,7 @@
 01
 001 Empower your business through analytics
 02 How Can Data Improve Your Business
-001 What is the value of data_
+001 What is the value of data
 1. Data Governance:
 Properly tracking metrics
 that have an impact on your organization
@@ -21,7 +21,7 @@ Using your data to improve
 your chance of success
 EX: sales trend barchart
 
-002 How can data drive my decisions_
+002 How can data drive my decisions
 [Data Visualization]
 A visual expression of
 what is happening with ur data
@@ -354,7 +354,7 @@ Feedback rating
 ch8
 001 Next steps
 
-Source:L.Introduction.to.Business.Analytics
+Source:L.Introduction to Business Analytics
 
 Self:
 Embed a review section in your website(Wufoo's online form; tawk.to)
