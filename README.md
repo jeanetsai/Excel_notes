@@ -1,4 +1,6 @@
 # Excel_notes 教學檔案
+999_VBA_2TXT_altF11.md 以 VBA 批量存為 txt 檔案     
+
 IF, COUNTIF, VLOOKUP and other functions, pivot tables
 
 字串記得加雙引號，絕對參照可使用F4作為快捷鍵
