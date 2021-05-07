@@ -1,5 +1,5 @@
 # Excel_notes 教學檔案
-999_VBA_2TXT_altF11.md 以 VBA 批量存為 txt 檔案     
+999_VBA_2TXT_altF11.md 以 VBA 批量存為 txt 檔案 (Shell: for %f in (*.txt) do type "%f">>all.txt)     
 
 IF, COUNTIF, VLOOKUP and other functions, pivot tables
 
