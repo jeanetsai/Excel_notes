@@ -1,0 +1,483 @@
+
+本文件包含三部分：Find competitors, customer journey & marketing funnel, strategic marketing
+
+<<Competitive and Market Analysis for Product Managers>>
+1.1. Market Research
+01.Market research - Sizing the market
+
+How Do You Estimate The Market Size:
+<Top Down> + <Bottom Up>
+Top Down: Find the total market and what your share is 找出整個市場以及你佔多少比例
+比如說有10000個使用者 10%買你的產品 每人花5美元 你可以賺到5000美元
+Based on total market, optimistic
+
+<Bottom Up> Estimate using current similar products's sales data 用目前類似產品銷售狀況來預測
+比如說對手有10000個使用者 10%下載你的產品 每人花5美元 你可以賺到5000美元
+Based on current trends, conservative
+
+<搜尋 Industry Report _____>
+<compete.com>
+<Googld Adwords>
+
+2.2. Competitors
+
+02.Introduction to finding competitors
+Feature Triage 分類
+1. Get you more users
+<Competitors>
+1. What they look like
+2. What they are doing
+3. What they offer
+
+03.Find competitors as a product manager
+
+STEP 1: Capture competitor
+Known/Unknown
+
+關鍵字
+<Company name + versus>
+
+Focus on Problems 
+找出你的消費者如何解決問題 來找出競爭者
+For whom?
+
+<1. Channel the type of user>
+How do they complain about the problem?
+
+You'll find:
+1. Companies that are using that verbiage
+2. Individual complaints online
+3. Google connects the dots
+site: yahoo answers/reddit/quora
+
+<2. Describe what your product does>
+
+You'll find:
+1. Companies using literal descriptions
+2. Ads at the top of the search list
+3. Google's input
+
+<3. Play around with quotation marks>
+
+<4. One sentence pitch>
+一句話定位你的產品
+
+04.Direct, indirect, and potential competitors and their impact
+<4 types of competitors>
+Direct
+Indirect
+Potential 
+Substitute
+
+You own an Italian food restaurant, sell pasta
+
+Direct: very similar solution, Italian food
+Indirect: Solve the same problem, but different target customers, greek food Italian food
+Potential: same customer group, different problem, Italian grocery store
+Substitute: same problem, different customer group, 
+pizza
+
+
+Direct:Try to be competitive to these
+Indirect: Not losing too many customers
+Potential: Make sure they can't do it easily
+Substitute: Be at least better than these
+
+05.The five criteria for understanding competitors
+1. The product core:
+Product team of your competitors
+How good is our competitors' product team
+Know how good their product core is
+
+2. Know the size of their user base
+How many users do they have
+
+06.The last three criteria for understanding competitors
+
+3. Design
+Beautiful, easy to use
+
+4. Brand
+
+
+5. Speed
+How quickly can they build?
+
+
+<Product Core>
+User Base
+Size
+Speed
+Design
+Brand
+
+07.Monitor competitors
+
+<Criteria for judging your competitors>
+1. Product team
+2. Design
+3. Brand
+4. User Base
+5. Speed
+
+1. Funding
+CrunchBase
+
+2. Acquisitions
+
+3. New features/products
+mention.com
+Major updates of your competitors
+Google Alerts
+
+3.3. Feature Tables
+08.What is a feature table
+
+Competitors
+__________________
+Dimensions|
+Dimensions|
+Dimensions|
+
+How competitive you are?
+
+09.Put together a feature table
+
+
+Dimensions: features and factors
+What your target customers care about?
+Why should they choose you?
+
+Competitors   1 2 3 4 YOU
+_______________________
+Price        |
+Reliability  |
+Feature      |
+Ability to do|
+Aesthetics   |
+Weight       |
+Accessaries  |
+
+10.Practice building a feature table
+Use their products
+
+11.What do you ultimately care about as a product manager
+
+Stay on top of industry news
+And pay attention to the features that competitors build
+See what they have in common
+How users are interacting with them
+What I can learn from the lessons they've learned
+
+
+<<Marketing Foundations The Marketing Funnel>>
+01.Welcome
+
+ \ Awareness  /
+  \ Interest /
+   \ Desire /
+    \Action/
+
+
+02.What is the marketing funnel
+
+AIDA model
+
+
+
+
+<<Understanding Strategic Marketing>>
+1.Introduction
+02.What is marketing
+Market Research
+Strategic Marketing
+Marketing Communications
+
+03.Course overview
+1. What business are we in?
+Understanding self
+Understanding market
+Understanding competitors
+
+Understanding market:
+<SWOT model>
+<BCG matrix>
+
+          market share
+           High    Low
+_____________________
+
+Market      Stars. Question Marks
+      High
+Growth
+      Low   Cash Cows. Dogs
+
+<5 Forces>
+<PEST models>
+
+2. Understand our customers
+Sementation: type, geo, key attributes
+
+
+3. Success factors and competitive advantage
+Now and in the future
+SWOT
+McDonald's CSF Analysis
+Porter's Competitive Advantage
+
+4. Our Strategy
+Ansoff
+Directional policy matrix
+The 4Ps
+O&T
+
+5. Communicate
+Promotion
+Channels
+Setting budgets
+Branding
+
+2.1. Understanding Your Business
+04.Introduction
+What business are we in?
+
+05.Understanding product and market
+Product led or Market led?
+Product led: Who can we sell it to?
+Market led: What do people want?
+
+06.Understanding the product lifecycle
+
+Introduction > Growth > Maturity > Decline
+
+<Introduction>
+Making a loss, not profitable
+Future investment
+
+<Growth>
+Building customers
+Profitable
+
+<Maturity>
+Could be decades
+Big profit
+Competitors enter
+Extend this phase with innovation and launches
+
+<Decline>
+Losing market share & customers
+Making a loss again
+
+[Ask Yourself]:
+Which phases are my products in?
+When will the growth level out?
+How long will maturity last?
+How can we extend maturity?
+What is coming through next?
+
+07.Identifying high-performing products
+
+<BCG matrix>
+
+          market share
+           High    Low
+_____________________
+
+Market      Stars. Question Marks
+      High
+Growth
+      Low   Cash Cows. Dogs
+
+=====================
+
+<Boston Matrix>
+Compares Market Share and Market Growth:
+Are you a popular brand within your market?
+Is your market getting bigger and more valuable?
+
+
+[High market share]
+Profitable
+But hard to grow
+
+[Small market share]
+Vulnerable
+
+[Compares Market Share and Market Growth]
+Are you a popular brand within your market?
+Is your market getting bigger and more valuable?
+
+Star=>cash cows=>dogs
+
+08.Calculating market share
+
+<Relative Market Share>
+RMS is your size relative to your largest competitor
+
+               MS.    RMS. 
+__________________________
+Competitor A.  30%.    200%
+Us.            15%.    50%
+Competitor B.  10%.    33%
+Others         45% 
+
+
+<Which numbers really matter?>
+Your sales
+Your relative size
+
+<Other strengths>
+Easier to measure
+Easy to define 'market'
+
+
+09.Determining market threats
+
+<SWOT>
+
+<Porters 5 Forces>
+
+            Potential Entrants
+            (Threat of mobility)
+
+
+Suppliers         Industry Rivalry.    Buyers
+(Supplier Power)                       (Buyer Power)
+
+            Substitutes
+            (Threat of substitutes)
+
+
+10.Defining competitors
+
+<Defining your market>
+Difficult to set the market boundaries
+Who is in direct or indirect competition?
+'Sell things that you sell'
+'MIGHT sell things that you sell' THREATS
+'Sell to future customers' OPPORTUNITIES
+Sell something you're interested in, to existing or potential customers
+
+11.Doing a competitor analysis
+<Analyzing competition>
+Who are they?
+Strengths and weaknesses of each: 
+- financial position, press releases, customer feedback
+- product portfolio, market share, lifecycle, positioning
+
+<Market Matrix>
+Analyze size of each market
+Your share vs theirs in best markets
+Competitor grow/profitabililty/size
+Build a competitor map
+
+
+3.2. Understanding Customers
+
+12.Introduction
+Segmenting your customers down
+
+13.Determining market fragmentation
+<Concentrated Markets>
+Dominated by 2 or 3 companies
+
+<Fragmented Markets>
+Lots of small companies
+Market leader with 10% share
+
+<Market Concentration> 市場會愈來愈集中
+Tends to increase over time
+Economy of scale leads to small companies closing and big companies acquiring
+Low 'Barriers to Entry' means new small competitors constantly joining
+
+<Fragmented Market> 小公司儘量進入這種市場 避開價格戰
+Small competitors
+Less customer knowledge (not everyone knows the price)
+Fewer price wars
+
+<Concentrated Market>
+Cartel price fixing possible
+
+4.3. Evaluating Success Factors and Competitive Advantages
+14.Introduction
+How you beat your competitors?
+
+15.Segmenting and product positioning
+<What is segmentation?>
+Dividing up the market
+- Identify gaps
+- Spot opportunities
+Understanding people & needs
+Behavior of each consumer group: what do young/elder ppl buy?
+Tailor design and advertising
+Approach new segments
+
+<How to segment?>
+Customer type
+Product type
+Competitor type
+
+E.g., holidays
+By gender, age, geo, lifestyle
+
+E.g., newspapers
+What makes one newspaper different?
+Youthful / traditional / sensational / serious?
+
+<Challenge of segmentation>
+1. How do I divide my customers?
+2. Which ones do I focus on supplying?
+
+16.Using the SWOT matrix
+<SWOT Matrix>
+What are the key success factors in your market?
+- Understand your customers/competitors
+- & where the market is at the moment
+- Future expectations
+What is our competitive advantage?
+
+<SWOT>
+
+17.Understanding critical success factors
+
+<Critical Success Factors Analysis>
+
+                          Performance
+              Importance    Score  IxPS
+________________________________________
+Delivery
+Quality
+Price
+Technology
+________________________________________
+                共100         共10
+
+              A.    B.   C.  Us
+________________________________
+Delivery
+Quality
+Price
+Technology
+
+
+18.Using Porter's competitive strategies
+
+<Porters 5 Forces>
+
+            Potential Entrants
+            (Threat of mobility)
+
+
+Suppliers         Industry Rivalry.    Buyers
+(Supplier Power)                       (Buyer Power)
+
+            Substitutes
+            (Threat of substitutes)
+
+
+
+
+
+
+
+
