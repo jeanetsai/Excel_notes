@@ -1,5 +1,5 @@
 
-本文件包含三部分：Find competitors, customer journey & marketing funnel, strategic marketing
+本文件包含三部分：Find competitors, customer journey & marketing funnel, strategic marketing (SWOT, PEST, BCG Matrix, Porter's five forces)
 
 <<Competitive and Market Analysis for Product Managers>>
 1.1. Market Research
