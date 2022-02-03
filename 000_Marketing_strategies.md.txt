@@ -178,10 +178,234 @@ What I can learn from the lessons they've learned
    \ Desire /
     \Action/
 
-
+2.1. Marketing Funnel Basics
 02.What is the marketing funnel
 
 AIDA model
+
+03.Segmenting the marketing funnel
+<Awareness>
+Problem->solution
+<Interest>
+Explore
+<Desire>
+Consideration
+May or may not your brand
+<Action>
+Make a purchase
+<Advocacy>
+After the sale, recommend or purchase again
+
+04.How is the marketing funnel used
+
+Awareness does not lead to conversion
+Calculate the conversion rate
+
+3.2. Marketing Funnel Segments
+05.Awareness
+
+<Awareness>
+Capture the consumer's attention
+
+<Create Awareness>
+Your company's existence
+What you do or sell
+Their needs or wants
+
+<Awareness comes from> 重要 
+Competitors 來自競爭者
+Media 來自媒體
+Environment 來自環境
+
+<Approaches to generating awareness>
+What you sell + Who you sell to
+Create awareness with a specific customer segment
+Ensure your target demographic knows you exist
+
+06.Interest
+
+<Interest>
+Reinforce the prospect's position
+Provide information about your product
+Provide relevant resources to generate desire
+
+<Generating Interest>
+Expand on their need
+Detail what you offer
+Answer fundamental questions
+Research the prospect's mindset
+Provide information early
+Educate your customer
+Consider leads coming from external influences
+
+<Create interest through customization>
+Landing pages
+Webinars
+Newsletters
+Testimonials
+Customer guide
+Online videos
+Media interviews
+Blogs
+Customer service training
+
+07.Desire or consideration
+<Desire>
+Convince the consumer to purchase
+Reinforce the relationship
+Give necessary information
+Keep them in your ecosystem
+Answer their objections
+
+<Assessing Customer Experience>
+A/B test
+Online surveys or tools
+
+08.Action or conversion
+
+<Action>
+Social proof
+Reassurance
+Make the purchase process seamless
+Give the consumer incentive 動機/鼓勵 to take immediate action
+Identify the primary actions you want your users to take
+
+09.Loyalty and advocacy
+<Advocacy>
+Encourage customers to become brand promoters
+Use storytelling and post-purchases messaging
+
+<Why Brand Promoters Share>
+1. Spread valuable content
+2. Define themselves to others
+3. Grow relationships
+4. Advance self-fulfillment and outreach
+
+<How to build advocacy>
+Invest in influencers
+Create brand opportunities
+Create shareable content
+Align under a strong purpose and cause
+
+4.3. The Buyer's Journey
+
+10.Full-funnel marketing
+
+<Full-funnel marketing>
+Marketing tailored to each stage of the buyer's journey
+
+<Bottom Funnel Marketing>
+Converting leads into customers
+例如搜尋 在台北修眼鏡 長尾關鍵字
+
+<Top Funnel Marketing>
+Bringing leads in
+
+<Middle Funnel Marketing>
+Nurture leads to continue
+
+<Top of Funnel States>
+Aware of problem, unaware of solution
+Aware of solution, unaware of problem
+Aware of problem, aware of solution
+
+11.The truth about this path
+Keep it flexible
+
+12.The buyer's journey
+<Evaluate the buyer journey>
+Within your brand
+Outside your brand
+Catalog how a buying navigates your funnel
+
+<Ask Yourself>
+How do they become aware of their problem?
+How would they become aware of a solution?
+How would they become interested in a brand?
+Why would they desire a particular brand?
+What would motivate them to convert?
+How do you move them along in this funnel?
+
+Websites, stores, email, social media posts...
+
+13.Outside influences
+
+From friends, social media, community, 3rd reviews ...
+How do you involve in it?
+Are there negative comments?
+
+<Customer are open to influence at these stages>
+Interest
+Action
+After conversion
+
+5.4. A Marketing Sequence
+14.What is a marketing sequence
+<Marketing Sequence>
+Dictates which marketing activity to execute at a specific time,
+For a particular stage in the funnel
+例如下載電子書 就 email 到 landing page
+
+<Marketing Tools>
+Social Media
+Email
+Forums
+Direct mail
+Brochure
+Ebooks
+Events
+
+<Awareness>
+Social media
+SEO
+TV
+Radio
+Print
+Display ads
+Direct mail
+Affiliate and referral marketing
+
+<Interest>
+Blog articles
+FAQs
+Ebooks
+Webinars
+Brochures
+Videos
+Case studies
+Endorsements
+Copywriting
+
+<Desire>
+Customer ratings
+Testimonials
+Product reviews
+Staff members
+Sales representatives
+
+<Action>
+In-store interactions
+Website
+Sales staff
+Point-of-sale devices
+Store layout
+
+<Loyalty>
+Surveys
+Rewards program
+Customer support
+Warranties
+Marketing emails
+Thank you cards
+Promotions
+Billing
+Social media
+Word of mouth
+
+15.Creating a marketing sequence
+
+
+
 
 
 
