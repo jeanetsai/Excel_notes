@@ -462,6 +462,36 @@ Technology
 
 18.Using Porter's competitive strategies
 
+<Porter's Generic Strategies>
+
+                Competitive Advantage:
+                Cost.    Differentiation.
+Scope:      |____________________________
+Total Market|Cost Leadership. Differentiation.
+            |
+            |
+Niche Market|Cost Focus. Differentiation Focus.
+            |
+
+
+[Cost Leadership]
+- Being the cheapest option
+- Economies of scale
+- Simple products
+- Careful not to start a price war
+
+[Narrow Focus Differentiation]
+- Specialist niche dominated
+- Normally high end
+- Expensive and slow progress
+
+[Wide Focus Differentiation]
+- At lease one differentiating factor 
+strong brand, service, image, safety, value
+- Suitable for most companies
+
+19.PEST
+
 <Porters 5 Forces>
 
             Potential Entrants
@@ -474,10 +504,310 @@ Suppliers         Industry Rivalry.    Buyers
             Substitutes
             (Threat of substitutes)
 
+<PESTLE> 檢閱其外部巨集觀環境的一種方法
+Political
+Economic
+Social 
+Technologies
+Legal
+Environmental
+
+<Political>
+New laws?
+Regulations?
+Stability?
+Privatization?
+Litigation? 訴訟
+
+<Economic>
+Business cycle -recessions
+Unemployment
+Disposable income
+Energy
+Class divide
+Industry shifts
+Globalization
+
+<Social>
+Age demographics
+Family structures
+Social mobility 
+Lifestyle trends
+Education
+Attitubes and cultures
+
+<Technological>
+New discoveries
+Rate of change
+Obsolesce 行將過時作廢
+Advancemenets
+
+<Environmental>
+Renewable energy
+Transport
+Land shortages
+Global warming
+Water shortage
+Waste/recycling
+Natural disasters
 
 
+5.4. Building a Strategy
+20.Introduction
+4Ps
+
+21.Determining your strategic future
+<Designing a Marketing Strategy>
+You know where you are
+But where do you want to be?
+Identify strengths, weaknesses, gaps and competition
+
+           Existing      New
+           Products      Products
+________________________________
+Existing.  |Market.      Product
+Markets.   |Penetration. Development
+           |
+           |Market       Diversification
+New Markets|Development.
+
+<Market Development>
+Know your product mix and strengths
+Segment the market
+Spot potential new customers
+
+<Product Development>
+Know your customers' preferences
+Develop new products to sell to them
+Replacements
+Line Extensions
+Diversify in related/accessories
+Repurpose your technology
+Totally unrelated product - but same customer
 
 
+<Diversification> 多樣化經營
+Risky
+Conglomerate Diversification - buy outs
+Vertical/horizontal integration
+
+<Market Penetration>
+Are you getting the most from your existing products and customers?
+Customer development
+New customer acquisition
+
+<Product/Market Matrix>
+Market Segments
+        1.  2. 3. 4. 
+_____________________
+Products
+A           V
+B              V
+C           V
+D           V  V  V
+E       V
+
+<Market Strategy>
+Exhaust existing market
+Before branching into new ones
 
 
+22.Assessing market strength
 
+<Directional Policy Matrix>
+      Business Strength (SWOT)
+              High.      Low.  
+___________________________
+Market.       |Star.     Selective developement
+Attractiveness|
+         High.|
+         Low .|Cash Cow. Dog  
+(PESTEL)      |
+
+<Star>
+Invest
+Aggressive pricing
+Brand promotion
+
+<Selective developement>
+Segment options
+Play to strengths
+Be aggressive towards chosen segment
+
+<Cash Cow>
+Maintain position
+Cut costs (maximize efficiency)
+Prune out weak accounts 修整
+
+<Dog>
+Extract as much cash as possible
+Get out or allow to shrink
+Cut costs and loss making accounts
+
+<Directional Policy Matrix>
+Build your own
+- How do I measure my strength?
+What determines attractiveness?
+
+23.Employing the four Ps
+Product
+Price
+Place
+Promotion
+
+
+<Product>
+Product life cycles
+Product range
+Features & quality
+
+<Price>
+Overall strategy
+Tactics and changes
+Margins
+
+<Place>
+Distribution
+Retail/online
+Service
+
+<Promotion>
+Advertising
+Publicity
+Mail/online/billboards
+
+24.Mastering pricing strategies
+
+<Pricing strategy>
+Three main types:
+Cost based
+Demand based
+Competition based
+
+<Cost based pricing>
+What does it cost to make/supply?
+Add a bit for profit
+Charge that price
+
+<Demand based pricing>
+What would they pay?
+Know your customers and what their value gained is
+
+
+<Competition based pricing>
+What is everyone else charging?
+Charge slightly less then them, or be different
+Choose a niche
+
+<Elasticity of Demand>
+Inelastic market
+- Customers buy regardless of price
+- Therefore charge a lot!
+- Luxuries ... and essentials
+
+Elastic market
+- Customers choose cheapest option,
+Or only buy when the price does down
+- Large items which normal ppl buy
+
+
+<Elasticity of Demand>
+Is the product an essential or a luxury?
+Is it related to health or safety? If yes, inelastic market, charge more
+Are there substitutes available?
+Where is the product in its life-cycle?
+What type of buyer is buying it?
+How 'perfect' is the market? Everyone knows the price?
+Barriers to entry preventing new suppliers coming in and increasing supply
+
+<Pricing tactics>
+Short term changes within your overall strategy
+Experimental pricing 將價格實驗性地提高試試看
+Loss leader pricing 將價格暫時降低以搶市場 用低價吸引人來買別的東西
+Psychological pricing 99 比 100 吸引人 
+Perceived value pricing 提高價錢以看起來高級
+Complimentary goods pricing 利用補充品來賺錢 例如賣服務或墨水 (service makes money)
+Product life pricing 產品剛出來時較高價
+
+25.Summing up with SWOT
+<Strategy Formation>
+Where are you now? 你現在在哪
+Where do you want to be? 你想得到什麼地位
+Know strengths & competitivene advantage point
+Where to focus and exploit these
+Know weakness & competitor threats 了解弱點和競爭威脅
+How to cure them an avoid difficult markets
+Know opportunities and future paths 了解未來及機會
+Balance attractiveness and success likelihood
+How to service them and dominate 如何滿足機會並主導市場
+Know threats and how to protect against them 了解威脅
+Prepare monitoring and safeguarding processes 如何面對威脅
+
+<SWOT>
+Strengths
+Opportunities
+Weaknesses
+Threats
+
+6.5. Communicate to Your Market
+26.Introduction
+Ad, brand
+
+27.Product targeting
+
+<The purpose of promotion>
+促銷的過程
+Unaware
+Aware
+Comprehension
+Consider
+Convinced
+Served
+Repeat
+
+<Promotional Strategy>
+Which method to use? 用什麼方法促銷
+Budget allocated? 預算多少
+How to segment the product? 如何市場區隔
+What do your customers buy?
+
+<Why they buy?>
+Target user vs buyer 例如是子女還是父母購買
+Habitual vs deliberate vs impulse 習慣的 還是做過功課的 還是衝動的
+Follow recommendations vs reviews vs staff 因為網路推薦買 因為評論買 還是因為員工推薦
+Motivated by security vs status vs savings 為了安全 還是目前狀態 還是為了要省錢
+Promote the weakest feature? 如果大部分的功能都知道了 是否有其他微小的動機可促銷
+
+
+<5M's of Advertising>
+1. Mission (one message)
+2. Money
+3. Message (how to do, what makes you buy)
+4. Media
+5. Measure (the result, how many clicks ...)
+
+<Setting your marketing budget>
+How much can we afford? 多少預算可以負擔
+Allocate % of sales? 多少比例要放在廣告 香水就很高比例
+Competitive parity? 競爭的勢均力敵?
+Objective? Task? 目標是要賣多少？要執行什麼任務？
+
+<Promotional Strategy>
+Should you build a brand?
+
+<Yes, Invest in a brand>
+Long-term relationship
+Technical - not important, or hard to judge 如何鑑定品質
+Service-based 服務導向的
+Defending existing market lead or niche
+Uncertainty in market, very stable market 穩定的市場適合
+
+<No, don't invest in a brand>
+One off product purchase
+Product sold on technical merit
+Product-based
+New to market or sector
+Fragmented market, price-sensitive market 價格敏感的不適合
+
+7.Conclusion
+28.Thank you
