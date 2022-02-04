@@ -404,10 +404,141 @@ Word of mouth
 
 15.Creating a marketing sequence
 
+<marketing sequence>
+Tools in use
+Tools not used
+Tools you want
+
+<Tools in Use>
+Landing pages: Interest
+Email marketing: Awareness, interest
+Appointment scheduling: Desire/Consideration
+Promotions: Action
+Follow-up calls: Loyalty
+
+<Tools not used>
+PPC Ads: Desire/Consideration
+Display ads: Awareness
+Social media: Interest
+Blogs: Awareness
+
+<Tools you want>
+PR: Awareness
+Webinars: Interest
+Brochures: Awareness, interest
+
+16.A funnel scenario
+
+-1. Awareness: postcard
+-2. Interest: blogs
+-3. Desire: remarking ads, press, reviews, email nurturing
+-4. Action: seamless buying
+-5. Loyalty: share to get discount
 
 
+6.5. Moving Through the Funnel
+17.Converting from awareness to interest
+
+Set a long duration
+Create a compelling ad campaign
+
+<Prototypicality>
+When something matches your mental template
+Same framework for different product
+消費者喜歡眼熟的東西 可以使用同一個框架 例如Tesla使用同樣的車店面賣車子
+
+18.Converting from interest to desire
+
+3rd party recommendation
+
+<Progressive Profiling>
+Visitor information collected to tailor messaging 收集顧客資訊以回答他們問題
+1. Makes user feel committed
+2. Leads naturally to desire stage
+
+19.Converting from desire to action
+Apply your marketing strategies
+Identify what is most important at the point of purchase
+
+20.Converting from action to loyalty
+
+<Retention>
+The act of keeping your current customers loyal
+
+Retention is more important than virality
+
+7.6. Improving Funnel Performance
+21.Falling out of the funnel
+<Funnel Leaks>
+Areas where customer needs are not being met
+
+22.Identifying leaks
+<Signs of Funnel Leaks>
+High ad spend, low ROI
+High bounce rates
+Low conversion rates
+High churn rate 顧客不忠
+=> wrong targeting? Issues?
+
+<Low conversion rates>
+A/B test
+
+Live chat, email, phone number, surveys
+讓顧客回報問題
+
+<Poor Lead Conversion Rates>
+Sales assets 給予顧客協助
+Nurture campaigns
+
+<High Churn Rates>
+Exit surveys
+Product improvements
+UI refinements
+Ask questions
+
+23.Improving the funnel
+1. Understand how consumers enter the funnel
+2. Inspect your loyalty efforts
+- customer actively promoting your products?
+- or passively positive recommendation if someone asks?
+3. Evaluate your spend
+4. Examine your middle-funnel efforts
+5. Cater to consumer self-reliance
 
 
+24.Increasing attraction
+<Value propositions>
+Visible
+Meaningful
+
+<Leaders without titles by Stephen Sampson>
+Physicality: be attractive
+Intellectuality: generate new ideas
+Sociability: communication skills
+Emotionality: evoke emotion, humor
+Personality: brand confidence
+Morality: brand promises, do the right thing
+
+25.Optimizing curiosity
+
+<Developing Middle-of-the-Funnel Content>
+Reinforce brand values
+Discuss innovations
+Educate consumers
+
+
+26.Increasing affinity
+
+1. Ensure you have met or exceeded expectations
+2. Focus on the touch points after the sale
+
+8.7. Evolving the Funnel
+27.Rethinking the funnel
+<Brand Bonding>
+Influenced by positive or negative experiences following a purchase
+
+28.B2B vs. B2C
+B2B: reach more representatives, longer decision time
 
 
 <<Understanding Strategic Marketing>>
